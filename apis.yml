@@ -1,7 +1,24 @@
 aid: sinovision-tech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sinovision-tech.png
 name: sinovision-tech
-description: sinovision-tech is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sinovision (Sinovision Weisheng, 赛诺威盛) is a Beijing-based medical imaging technology
+  company that designs and manufactures computed tomography (CT) systems and related clinical solutions.
+  Its portfolio spans the Insitum 16-128-slice scanners, the Alpha series up to 512 slices, veterinary
+  Petcare CT, mobile and vehicle-mounted units, image-guided navigation robotics, AI-assisted diagnostics,
+  and the Sinoplatform cloud imaging platform, with 700+ installations across 150+ international partners.
+  It is tracked in the API Evangelist network as a portfolio company of Qiming Venture Partners; as of this
+  enrichment pass the public website publishes no developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/sinovision-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Imaging
+- Healthcare
+- CT Scanner
+- Medical Devices
+- Radiology
+- Artificial Intelligence
+- Cloud Imaging
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/sinovision-tech-domain-security.yml
 - type: Website
   url: https://sinovision-tech.com
